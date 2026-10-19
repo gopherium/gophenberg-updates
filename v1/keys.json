@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "serial": 1792403905,
+  "expires": "2027-10-19T09:58:25Z",
+  "keys": [
+    {
+      "role": "release",
+      "multikey": "z6MkhzygKXb6Xx7PB1NZsPhuNamiHiinZcaBijQZKMFYgWc3"
+    },
+    {
+      "role": "standby",
+      "multikey": "z6MkkZNhcEbvKKuSsj3Ywz39iXYwCtxm5AVwxEzqjHJw35vJ"
+    }
+  ]
+}
