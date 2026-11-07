@@ -1,9 +1,9 @@
 #!/bin/sh
 set -eu
 
-version=0.20.0
-sha256_amd64=46a5edb163aa75325fd2bbac3e8aacaa8fdf7b37e1666c8f8e438c9458ff186e
-sha256_arm64=cb70f044138b755e16777c3a3b9fa28f1c75b748bda41b97698e8796ccfc5039
+version=0.20.1
+sha256_amd64=4f9a66caf398e1ede4630a23114176802e28d52a1479d2c32246dd75fbb16af6
+sha256_arm64=f7651efe87ebb6e567649ac3f24d9246f7700a502138c29eae286c9c58ed1540
 downloads=https://github.com/gopherium/gophenberg/releases/download
 protocols='=https'
 stall_seconds=60
