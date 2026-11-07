@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "serial": 1794051137,
+  "expires": "2027-02-05T11:32:17Z",
+  "offers": [
+    {
+      "rollout": 100,
+      "auto": false,
+      "withdrawn": false,
+      "minimum_version": "0.19.0",
+      "postgresql": 15,
+      "kits": [
+        "0.9.0",
+        "0.10.0",
+        "0.11.0",
+        "0.12.0",
+        "0.13.0",
+        "0.14.0",
+        "0.15.0",
+        "0.15.1",
+        "0.16.0"
+      ],
+      "notes": "https://github.com/gopherium/gophenberg/releases/tag/v0.20.0",
+      "release": {
+        "version": "0.20.0",
+        "artifacts": {
+          "package": [
+            {
+              "id": "darwin-arm64",
+              "platform": "darwin/arm64",
+              "content-type": "application/gzip",
+              "url": "https://github.com/gopherium/gophenberg/releases/download/v0.20.0/gophenberg_0.20.0_darwin_arm64.tar.gz",
+              "checksum": "sha256:a95d098ab2857812383ce5e8fd97ae2922d32425d8edd2d0af2ebd9ad568a9b3",
+              "signature": "KBxmrqKL4KwQ8JHG4PTRrL5cR-0G4e1b1h_Mo1fj8HdGubWkU75nvO8ZSeZQK-L0GJSvZlRd0H6ng1A75zKcBA"
+            },
+            {
+              "id": "linux-amd64",
+              "platform": "linux/amd64",
+              "content-type": "application/gzip",
+              "url": "https://github.com/gopherium/gophenberg/releases/download/v0.20.0/gophenberg_0.20.0_linux_amd64.tar.gz",
+              "checksum": "sha256:46a5edb163aa75325fd2bbac3e8aacaa8fdf7b37e1666c8f8e438c9458ff186e",
+              "signature": "Y-Taveq6anCa9T19d9oxZ82o51CfJ9jQSkSg8q9Zdu7q-w-PAVqpm6WYI4gnKAyBSY_pT5E8cZw26gkfWB6yDg"
+            },
+            {
+              "id": "linux-arm64",
+              "platform": "linux/arm64",
+              "content-type": "application/gzip",
+              "url": "https://github.com/gopherium/gophenberg/releases/download/v0.20.0/gophenberg_0.20.0_linux_arm64.tar.gz",
+              "checksum": "sha256:cb70f044138b755e16777c3a3b9fa28f1c75b748bda41b97698e8796ccfc5039",
+              "signature": "apnbMl2cR8kycw_n66Kpgif3NS7U1hYXRG_-B8_jSkasce2mbZGKVbz5EKwqkBYzfLC4IdIJtzIpP8XpdDiOAQ"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
